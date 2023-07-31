@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*styling navigation bar*/
+.main-header{
+    background-color: olive;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+nav ul li{
+    display: inline-block;
+    margin: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+
+}
+/*styling navigation bar for hover*/
+nav ul li a:hover{
+    color: black;
+    text-decoration: underline;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*setting bg-img for home, about and contact page*/
+.container{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+
+/*styling everthing inside contact page*/
+.container h1{
+    text-align: center;
+    color: #d8d8d8;
+}    
+.contact{
+        text-align: center;
+        font-size: 1.5em;
+        color: #d8d8d8;
+    }
+    form input, form textarea{
+        border-radius: 30px;
+        width: 300px;
+        padding: 10px;
+        margin-top: 5px;
+        margin-top: 10px;
+    }
+    form input[type="submit"]{
+        background-color: #333;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+    }
+    form input[type="submit"]:hover{
+        background-color: lightgreen;
+    }
+
+/*styling the social apps on contact page*/
+ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 10px;
+}
+ul li img{
+    height: 50px;
+}
+@media (max-width: 768px){
+    body{
+        width: 100%;
+    }
+}
